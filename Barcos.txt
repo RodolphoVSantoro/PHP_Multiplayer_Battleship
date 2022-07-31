@@ -1,0 +1,18 @@
+Valores = representam:
+
+0= agua
+1= primeira parte do barco se for na horizontal
+2= meio do barco se for na horizontal
+3= ultima parte se for na horizontal
+4= primeira parte do barco se for na vertical
+5= meio do barco se for na vertical
+6= ultima parte se for na vertical
+7= submarino
+8= barco atingido
+9= agua atingida
+
+barcos = tamanho:
+submarino = 1
+destroyer = 2 
+cruzador = 3
+porta-aviões = 4

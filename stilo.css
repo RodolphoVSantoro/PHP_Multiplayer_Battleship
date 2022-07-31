@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body{
+
+background-color:#282875;
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.5));
+margin: 10px 0px 10px 0px;
+padding: 0;
+font:14px/1.2 Consolas,Comic Sans, Helvetica,fontRB02 ;
+text-align: center;
+
+}
+body#win{
+background-image: url("campeao2.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width:100%;
+height:100%;
+margin: 10px 0px 10px 0px;
+padding: 0;
+font:14px/1.2 Consolas,Comic Sans, Helvetica,fontRB02 ;
+text-align: center;
+
+}
+body#lose{
+background-image: url("gameover3.jpg") ;
+background-size: 1366px 850px;
+
+margin: 10px 0px 10px 0px;
+padding: 0;
+font:14px/1.2 Consolas,Comic Sans, Helvetica,fontRB02 ;
+text-align: center;
+
+}
+h1{
+text-transform: uppercase;
+  font: bold 100px/1 Helvetica, Verdana, sans-serif;
+}
+.ganhou,.perdeu{
+-webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 102px/normal "Passero One", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187) , 0 4px 0 rgb(185,185,185) , 0 5px 0 rgb(170,170,170) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.blue {
+    color: rgba(30,90,255,.8);
+	
+
+	text-shadow: 0 0 20px #b5cee6, 10px -10px 30px #8fb5d9, -20px -20px 40px #568fc5, 20px -40px 50px #ec760c,
+	-20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+	}
+	
+p#jog{ 
+
+margin-left: -600px;
+margin-bottom:-71px;
+text-transform: uppercase;
+  font: bold 35px/1 Helvetica, Verdana, sans-serif;
+ color: rgba(13,0,46,.8);
+text-shadow: 0px 2px 3px #666;
+}
+
+p#jog2{
+margin-left: 600px;
+
+text-transform: uppercase;
+  font: bold 35px/1 Helvetica, Verdana, sans-serif;
+ color: rgba(13,0,46,.8);
+text-shadow: 0px 2px 3px #666;
+}
+
+#tabjogador{
+position: relative;
+margin-left: 200px;
+margin-top: -10px;
+margin-bottom: 270px;
+}
+#tabjogador2{
+position: relative;
+margin-left: 800px;
+margin-top: -10px;
+margin-bottom: 270px;
+}
+#tabjogador3{
+position: relative;
+margin-left: 200px;
+margin-top: -400px;
+margin-bottom: 270px;
+}
+#tabadversario{
+position: absolute;
+margin-left:800px;
+}
+#tabadversario2{
+position: absolute;
+margin-left:800px;
+margin-top:-402px;
+}
+#E1{
+margin-bottom:107px;
+}
+#img{
+position: absolute;
+margin-top: 200px;
+margin-left: 415px;
+}
